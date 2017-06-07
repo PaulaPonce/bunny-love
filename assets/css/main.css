@@ -1,12 +1,11 @@
 body{
-	/*font-family: 'Baloo Paaji', cursive;*/
 	font-family: 'Prompt', sans-serif;
 	background: #ecf7fb;
 	margin: 0;
 	padding: 0;
 }
 
-/* common styles */
+/* Common Styles */
 .uppercase{
 	text-transform: uppercase;
 }
@@ -15,7 +14,7 @@ body{
 	display: inline-block;
 	list-style: none;
 	margin: 0;
-	padding: 25px 20px;
+	padding: 1.5rem;
 }
 
 a{
@@ -23,11 +22,9 @@ a{
 	color: #BFEAF6;
 	font-weight: normal;
 }
+
 .list:hover{
 	background-color: #ff7673;
-}
-li:first-child:hover{
-	background-color: #2c818b;
 }
 
 .white{
@@ -41,17 +38,17 @@ h1, h2, h3{
 	font-family: 'Baloo Paaji', cursive;
 }
 h1{
-	font-size: 1.6rem;
+	font-size: 1.8rem;
+	display: inline-block;
 }
 h2{
 	font-size: 4rem;
-	margin: 10px;
+	margin: 1rem;
 }
 
-/* main styles */
+/* Main Styles */
 
 /*  Header */
-
 /* Nav */
 nav{
 	background-color: #2c818b;
@@ -59,18 +56,16 @@ nav{
 }
 
 ul{
-	margin: 0 50px;
-	padding: 0;
+	display: inline-block;
+	padding: 0 1rem;
 }
 
 .logo{
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 9rem;
+	padding-right: 9rem;
 }
 
-nav ul li:nth-child(2){
-	margin-left: 2.5rem;
-}
+
 
 /* Main */
 #main{
@@ -103,9 +98,11 @@ nav ul li:nth-child(2){
 #tales{
 	text-align: center;
 }
+
 #tales img{
 	width: 100%
 }
+
 /* Footer */
 .footer-above{
 	background: #ecf7fb;
@@ -117,4 +114,20 @@ nav ul li:nth-child(2){
 .footer-below{
 	background-color: #2c818b;
 	text-align: center;
+}
+
+/* Responsive Menu */
+#nav .btn-menu{
+	display: none;
+	color: white;
+	font-size: 1rem;
+	text-align: right;
+	margin-left: 5rem;
+}
+
+i{
+	padding: 1rem;
+}
+i:hover{
+	color: #ff7673;
 }
