@@ -65,8 +65,6 @@ ul{
 	padding-right: 9rem;
 }
 
-
-
 /* Main */
 #main{
 	background-image: url(../img/img-1.jpg);
@@ -103,6 +101,30 @@ ul{
 	width: 100%
 }
 
+
+/* Video Section */
+#video img{
+	width: 100%;
+}
+
+#icon-list .list{
+ padding: 0 1rem;
+}
+#icon-list .list:hover{
+	background-color: #ecf7fb;
+}
+#icon-list a{
+	color: #2c818b;
+}
+#icon-list a:hover{
+	color: #ff7673;
+}
+
+input{
+	border: none;
+	padding: 1rem;
+}
+
 /* Footer */
 .footer-above{
 	background: #ecf7fb;
@@ -125,9 +147,9 @@ ul{
 	margin-left: 5rem;
 }
 
-i{
+#nav i{
 	padding: 1rem;
 }
-i:hover{
+#nav i:hover{
 	color: #ff7673;
 }
